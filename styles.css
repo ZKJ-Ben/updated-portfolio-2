@@ -68,6 +68,11 @@
     background-repeat: no-repeat;
   }
 
+  a:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
   .before-intro {
     height: 50px;
   }
@@ -177,7 +182,7 @@
     background: linear-gradient(to bottom, #f0f0f0, #ffffff);
   }
 
-  .bento{
+  .bento {
     height: 500px;
     /* border: 1px solid black; */
     display: grid;
@@ -187,27 +192,25 @@
     margin-bottom: 30px;
   }
 
-  .bento> div{
+  .bento > div {
     /* border: 1px solid yellow; */
     border-radius: 10px;
     overflow: hidden;
   }
 
- 
-
-  .two{
+  .two {
     grid-area: 1/2/3/3;
   }
 
-  .three{
+  .three {
     grid-area: 2/1/4/2;
   }
 
-  .five{
+  .five {
     grid-area: 4/1/5/3;
   }
 
-  .gallery> img{
+  .gallery > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
